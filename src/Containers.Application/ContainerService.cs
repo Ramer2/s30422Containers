@@ -3,7 +3,7 @@ using Microsoft.Data.SqlClient;
 
 namespace Containers.Application;
 
-public class ContainerService
+public class ContainerService : IContainerService
 {
     private string _connectionString;
     
